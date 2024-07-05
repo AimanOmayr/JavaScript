@@ -13,9 +13,10 @@
 
 //3
 
-var string = "Pakistani";
+
+var string = "Pakistanii";
 document.write("String: ",string,"<br>")
-document.write("index of 'n': ",string.indexOf("n"),"<br><br>")
+document.write("index of 'n': ",string.indexOf("n"),"<br><br> abcdefghijn")
 
 //4
 
@@ -47,6 +48,8 @@ document.write("After replacement: ",replace,"<br><br>")
 var message ="Ali and Sami are best friends. They play cricket and football together.";
 document.write("before replacement 'and' in the string with '&' is: ",message,"<br>")
 document.write("After replacement: ",message.replaceAll("and","&"),"<br><br>")
+document.write("After replacement: ",message.replaceAll("and","&"),"<br><br>")
+
 
 //9
 
