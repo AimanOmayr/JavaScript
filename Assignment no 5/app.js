@@ -80,7 +80,7 @@
 
 //12
 
-// var num= 35.36;
+// var num= "35.36";
 // document.write("Number: ",num,"<br>");
 // var newNum=num.replace(".","");
 // document.write("Number: ",num,"<br>");
@@ -104,18 +104,20 @@
 
 //14
 
-// var menu = ["cake", "apple pie", "cookie", "chips", "patties"]
-// var userInput = prompt("Welcome to ABC Bakery Place your order here:")
-// var caseSensitive = userInput.toLowerCase();
-// var flag = false;
-// for (var i = 0; i < menu.length; i++) {
-//     if (caseSensitive === menu[i])
-//         alert(menu[i] + " is available at " + [i] + " in our bakery")
-//     flag === true
-// }
-// if(flag === false) {
-//     alert("We are sorry! " + userInput + " is not available in our bakery")
-// }
+var menu = ["cake", "apple pie", "cookie", "chips", "patties"]
+var userInput = prompt("Welcome to ABC Bakery Place your order here:")
+var caseSensitive = userInput.toLowerCase();
+var flag = false;
+for (var i = 0; i < menu.length; i++) {
+    if (caseSensitive === menu[i]) {
+        flag = true
+        alert(menu[i] + " is available at " + [i] + " in our bakery")
+       
+    }
+}
+if (flag == false) {
+    alert("We are sorry! " + userInput + " is not available in our bakery")
+}
 
 //15
 
