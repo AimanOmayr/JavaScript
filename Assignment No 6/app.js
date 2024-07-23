@@ -63,7 +63,7 @@
 // //7
 
 // let userInput3 = prompt("Enter your weight in kilograms: ");
-// document.write("The weight of user is ",userInput3," kilograms","<br><br>")
+// document.write("The weight of user is ",parseFloat(userInput3)," kilograms <br><br>")
 
 // //8
 
