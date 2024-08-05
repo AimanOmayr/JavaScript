@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment No 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="link" href="#" onclick="alert('hi');">Click Me</a><br><hr><br><br>
+
+    <div class="container">
+        <div class="mob">
+            <img src="https://modernelectronics.pk/cdn/shop/files/Artboard1_grande_4c8657e3-3037-4b94-a95d-27299e883d2f.jpg?v=1699720505&width=600"
+                height="210" onclick="alert('Thanks for purchasing a phone from us!')">
+        </div>
+        <div class="mob">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4jV5Rh9sqkPx33j4729_oIBXZ9FbSSSsns5-if4zCX1mHwCAqbJSQs_wP8GsHWgqxQlk&usqp=CAU"
+                height="190" onclick="alert('Thanks for purchasing a phone from us!')">
+        </div>
+        <div class="mob">
+            <img src="https://cdn.cdon.com/media-dynamic/images/product/cloud/store/CellPhones/000/109/091/509/109091509-207324668-11453-org.jpg?cache=133518583724338942&impolicy=product&width=600"
+                height="190" onclick="alert('Thanks for purchasing a phone from us!')">
+        </div>
+        <div class="mob">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbxdnc4KTa10309clGQJ-Bhj9c8AomFFuFw&s"
+                height="200" onclick="alert('Thanks for purchasing a phone from us!')">
+        </div>
+    </div><br><hr><br><br>
+
+    <table id="tab" border="2px">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>John</td>
+            <td>10</td>
+            <td><button onclick="cut(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="cut(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="cut(this)" >Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>James</td>
+            <td>8</td>
+            <td><button onclick="cut(this)" >Delete</button></td>
+        </tr>
+    </table><br><hr><br><br><br>
+
+    <img onmouseout="src='https:miro.medium.com/v2/resize:fit:646/1*BxTA9zYVYtTwwWdSm7drOw.jpeg'" onmouseover="src='https:media0.giphy.com/media/5pUD7c0pvyXgfYUoQM/giphy.gif?cid=6c09b9528khoaepu49yn0sejuyxz0zqrc2bmk985aas869k0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g'" src="https://miro.medium.com/v2/resize:fit:646/1*BxTA9zYVYtTwwWdSm7drOw.jpeg" height="300px"><br><hr><br><br>
+
+    <button onclick="increase()">Increase</button>
+    <span id="counter">
+        0
+    </span>
+    <button onclick="decrease()">Decrease</button>
+    <script src="app.js"></script>
+</body>
+
+</html>

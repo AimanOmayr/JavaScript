@@ -54,8 +54,28 @@
 
 //5
 
-let num = +prompt("Enter any number:");
-function square(num){
-    alert(num*num)
-}
-square(num),"<br><br>"
+// let num = +prompt("Enter any number:");
+// function square(num){
+//     alert(num*num)
+// }
+// square(num),"<br><br>"
+
+//6
+
+// function factorial(){
+//     var num = +prompt("Enter a number:")
+
+//     if(num < 0){
+//         alert("Error: Factorial is not defined for negative numbers")
+//     }else{
+//         var result = 1;
+//         for(var i = 2 ; i <= num ; i++){
+//             result*=i // (result= result * i)
+//         }
+//         alert("The factorial of "+ num +" is " + result)
+//     }
+// }
+// factorial()
+
+//7
+
